@@ -34,25 +34,6 @@ export const Header = styled.header`
   }
 `;
 
-// const fadeIn = keyframes`
-//   0% {
-//     opacity: 0;
-//     visibility: hidden;
-//     z-index: 0;
-//   }
-
-//   1% {
-//     opacity: 0;
-//     visibility: visible;
-//     z-index: 3;
-//   }
-
-//   100% {
-//     opacity: 1;
-//     z-index: 3;
-//   }
-// `;
-
 const fadeIn = keyframes`
   from {
     opacity: 0;
@@ -78,9 +59,8 @@ export const MobileMenu = styled.nav`
   background: rgb(64, 84, 178);
   background: linear-gradient(
     0deg,
-    rgba(64, 84, 178, 1) 10%,
-    rgba(110, 193, 228, 1) 33%,
-    rgba(26, 108, 122, 1) 100%
+    rgba(6, 58, 55, 1) 10%,
+    rgba(12, 183, 169, 1) 100%
   );
   display: flex;
   justify-content: center;
