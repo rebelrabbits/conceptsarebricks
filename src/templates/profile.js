@@ -226,6 +226,7 @@ export const EntityPageQuery = graphql`
       }
     }
     events: allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { profile: { eq: $title } } }
     ) {
       edges {
