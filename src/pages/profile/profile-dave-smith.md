@@ -12,12 +12,12 @@ audience:
   facebook: 4,431
   youtube: 33,000
 ---
+#### Disclaimers
 
-
-_At the time of this writing, Smith has 670 podcast episodes that usually run over an hour as well as thousands of tweets. The following write-up is based on the research in mid-November, which involved listening to roughly 10 cumulative hours of Smith’s Part of the Problem podcast reading Smith’s social media posts. The podcasts episodes were primarily ones where Smith had a guest. Equivalent time was given to episodes with guests that Rebel Rabbits either likes, dislikes, or doesn’t know. Rebel Rabbits acknowledges this is a small sample and requests users reach out to Concepts are Bricks with any updated information._
+*At the time of this writing, Smith has 670 podcast episodes that usually run over an hour as well as thousands of tweets. The following write-up is based on the research in mid-November, which involved listening to roughly 10 cumulative hours of Smith’s Part of the Problem podcast reading Smith’s social media posts. The podcasts episodes were primarily ones where Smith had a guest. Equivalent time was given to episodes with guests that Rebel Rabbits either likes, dislikes, or doesn’t know. Rebel Rabbits acknowledges this is a small sample and requests users reach out to Concepts are Bricks with any updated information.*
 
 \
-_Additionally, many of Smith's "Part of the Problem" podcast episodes referenced on this platform are hosted behind paywalls and cannot be directly linked. In these cases, episode numbers and @timestamps will be provided._
+*Additionally, many of Smith's "Part of the Problem" podcast episodes referenced on this platform are hosted behind paywalls and cannot be directly linked. In these cases, episode numbers and @timestamps will be provided.*
 
 ### Who is Dave Smith?
 
@@ -41,27 +41,24 @@ In addition to failing to meet the low bar for libertarian consistency of not pr
 
 #### Specific quotes and comments from Smith:
 
-- Smith rebuffs concerns about Holocaust deniers:
+* Smith rebuffs concerns about Holocaust deniers:
 
-  - Asks his audience [“Why is \[Holocaust denialism] the most horrible thing ever?”](<\* \* https://www.youtube.com/watch?t=4110&v=5LSAOUceQu4&feature=youtu.be>)
-  - [When interviewing America Firster and VDARE contributor Michelle Malkin](/incident/incident-holocaust-denial-is-merely-stupid-and-goofy/):  (Ep 557) "Like, my gripes with the America First crowd...I don’t have the problems that everyone else has with them. I’m not like, 'oh they made a racist joke,' or you know, ‘they did this,’ or ‘one of them is a Holocaust denier,’ or something. I just don’t care about any of that stuff. Like, I’m very confident the Holocaust happened, but...if someone believes it didn’t happen, like I don’t understand why this is so consequential...‘Ok, you got one kind of goofy stupid view,’ or something. Whatever.” (31:30)
-  - Called an infamous holocaust denial joke “[hilarious](/incident/incident-dave-thinks-holocaust-denial-joke-is-hilarious/)”
-
-- Dave believes [white people are the real victims of racism](/incident/incident-insinuating-the-real-racist-problem-in-the-us-is-an-anti-white-racist-problem/):\
+  * Asks his audience \[“Why is [Holocaust denialism] the most horrible thing ever?”](<\* \* https://www.youtube.com/watch?t=4110&v=5LSAOUceQu4&feature=youtu.be>)
+  * [When interviewing America Firster and VDARE contributor Michelle Malkin](/incident/incident-holocaust-denial-is-merely-stupid-and-goofy/):  (Ep 557) "Like, my gripes with the America First crowd...I don’t have the problems that everyone else has with them. I’m not like, 'oh they made a racist joke,' or you know, ‘they did this,’ or ‘one of them is a Holocaust denier,’ or something. I just don’t care about any of that stuff. Like, I’m very confident the Holocaust happened, but...if someone believes it didn’t happen, like I don’t understand why this is so consequential...‘Ok, you got one kind of goofy stupid view,’ or something. Whatever.” (31:30)
+  * Called an infamous holocaust denial joke “[hilarious](/incident/incident-dave-thinks-holocaust-denial-joke-is-hilarious/)”
+* Dave believes [white people are the real victims of racism](/incident/incident-insinuating-the-real-racist-problem-in-the-us-is-an-anti-white-racist-problem/):\
   “I just think that there’s not really a huge problem of racism, certainly amongst libertarians. You could argue there’s a huge problem of racism in the country right now, but it’s pretty much all, uh, coming in one direction. And it’s not the one that you guys are thinking of.”
 
-  - <https://www.facebook.com/Fakertarians/posts/1292293714274625>
+  * <https://www.facebook.com/Fakertarians/posts/1292293714274625>
+* Asserts that there is [no legitimate reason for libertarians to be vocally anti-racist](incident/incident-dave-theres-no-good-reason-for-libertarian-to-be-anti-racist/).
+* Says Twitter’s policy of banning accounts for exhibitions of transphobia is [equivalent to hosting a “whites only sign.”](/incident/incident-dave-twitter-bans-over-dead-naming-are-modern-version-of-whites-only-signs/)
+* Expresses serious concern over the “demographic consequences” of legal immigration \[POTP ep 549 @\~16:15, POTP ep 557 @\~18min] and c[laims a closed-border position is just as libertarian as an open-borders position](/incident/incident-open-borders-is-no-more-libertarian-than-open-borders/).
+* As a strategy towards spreading the libertarian message, Dave seems to think that it is more appropriate or likely for libertarian on the right versus the left, “because the left will never accept you.” \[POTP ep 557]
+* In his interview with Nick Fuentes, Smith:
 
-- Asserts that there is [no legitimate reason for libertarians to be vocally anti-racist](incident/incident-dave-theres-no-good-reason-for-libertarian-to-be-anti-racist/).
-- Says Twitter’s policy of banning accounts for exhibitions of transphobia is [equivalent to hosting a “whites only sign.”](/incident/incident-dave-twitter-bans-over-dead-naming-are-modern-version-of-whites-only-signs/)
-- Expresses serious concern over the “demographic consequences” of legal immigration \[POTP ep 549 @\~16:15, POTP ep 557 @\~18min] and c[laims a closed-border position is just as libertarian as an open-borders position](/incident/incident-open-borders-is-no-more-libertarian-than-open-borders/).
-- As a strategy towards spreading the libertarian message, Dave seems to think that it is more appropriate or likely for libertarian on the right versus the left, “because the left will never accept you.” \[POTP ep 557]
-- In his interview with Nick Fuentes, Smith:
-
-  - Compares private businesses’ practice of excluding and expelling bigots to the discriminatory behavior bigots themselves engage in.
-  - Suggests that Holocaust denialism is relatively harmless.
-
-- After the interview, Smith has both denied and then [claimed ignorance of any dangerous behavior from Fuentes](/incident/incident-dave-nick-fuentes-is-a-really-nice-guy/), who— at the time of this writing— is the subject of [32 targeted articles Right Wing Watch](https://www.rightwingwatch.org/people/nick-fuentes/).
+  * Compares private businesses’ practice of excluding and expelling bigots to the discriminatory behavior bigots themselves engage in.
+  * Suggests that Holocaust denialism is relatively harmless.
+* After the interview, Smith has both denied and then [claimed ignorance of any dangerous behavior from Fuentes](/incident/incident-dave-nick-fuentes-is-a-really-nice-guy/), who— at the time of this writing— is the subject of [32 targeted articles Right Wing Watch](https://www.rightwingwatch.org/people/nick-fuentes/).
 
 Aside from the discussions Smith platforms and participates in, the way Smith interacts with his different sorts of guests is telling. When he hosts mainstream libertarians— such as Spike Cohen, Jen Monroe, and Chris Spangle— Smith is more likely to debate with them and challenge (albeit politely) their positions. However, when he hosts right-wing populist guests, he almost never challenges their positions, no matter how authoritarian— or, frankly, antithetical to human rights— they are. When he hosted Malkin, his only quibble with her “America First” stance was that they don’t support a free market \[Ep 557 @31:20]. When he hosted white nationalist and multifaceted bigot Nick Fuentes, he [highlighted the commonalities that made them fellow travelers](/incident/incident-dave-highlights-common-overlap-with-alt-right-individual/).
 
