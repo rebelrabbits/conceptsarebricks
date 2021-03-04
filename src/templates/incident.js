@@ -2,14 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
 import { kebabCase } from "lodash";
+import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import { Container, Section, Tag, Main } from "../components/styles";
 import Content, { HTMLContent } from "../components/Content";
 
 import Hero from "../components/Hero";
-// import Features from "../components/Features";
-// import Testimonials from "../components/Testimonials";
-// import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import {
   Author,
@@ -20,7 +18,6 @@ import {
   Grid,
   ImgWrapper,
   Overview,
-  Social,
   Tags,
   Title,
 } from "../templateStyles/event";
@@ -37,6 +34,10 @@ export const EventPageTemplate = ({
   const PostContent = contentComponent || Content;
   return (
     <>
+      <Helmet titleTemplate=''>
+        <title>{title}</title>
+        <meta name='description' content={title} />
+      </Helmet>
       <Hero type='page' title={title} infoIcon={true} />
       <Main>
         <Section>
