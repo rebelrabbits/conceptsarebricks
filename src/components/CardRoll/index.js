@@ -64,7 +64,7 @@ const CardRoll = ({ data, truncated = false }) => {
                       post.frontmatter.tags.map((tag) => {
                         if (tag && typeof tag === "string")
                           return (
-                            <Tag>
+                            <Tag key={tag}>
                               <Link key={tag} to={`/tags/${kebabCase(tag)}/`}>
                                 {tag}
                               </Link>

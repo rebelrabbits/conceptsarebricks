@@ -67,9 +67,9 @@ const PleaseReadModal = ({ forceRender = false, onClose }) => {
               </Link>
             </li>
             <li>
-              <Link to='/blog/2020-11-23-what-to-do-if-you-see-a-profile-for-someone-you-respect/'>
+              {/* <Link to='/blog/2020-11-23-what-to-do-if-you-see-a-profile-for-someone-you-respect/'>
                 What do do if someone you respect has a profile
-              </Link>
+              </Link> */}
             </li>
           </ul>
         </Column>

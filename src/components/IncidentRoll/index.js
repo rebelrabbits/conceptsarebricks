@@ -46,7 +46,7 @@ const IncidentRollFetcher = ({ hasFilters = false, truncated = false }) => {
   const getInitial = () => get(data, "allMarkdownRemark.edges", []);
   const [filteredData, setFilteredData] = useState(getInitial());
   const [filters, setFilters] = useState({
-    author: [],
+    profile: [],
     tags: [],
   });
 
@@ -66,9 +66,9 @@ const IncidentRollFetcher = ({ hasFilters = false, truncated = false }) => {
       );
     }
 
-    if (filters.author && filters.author.length > 0) {
+    if (filters.profile && filters.profile.length > 0) {
       filteredList = filteredList.filter((post) =>
-        filters.author.includes(get(post, "node.frontmatter.author")),
+        filters.profile.includes(get(post, "node.frontmatter.profile")),
       );
     }
 
@@ -97,7 +97,7 @@ const IncidentRollFetcher = ({ hasFilters = false, truncated = false }) => {
     }
 
     setFilteredData(filteredList);
-  }, [filters]);
+  }, [data, filters]);
 
   return (
     <>

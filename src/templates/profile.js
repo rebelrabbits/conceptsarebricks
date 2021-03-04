@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
 import { get, kebabCase } from "lodash";
+import { Helmet } from "react-helmet";
 import Content, { HTMLContent } from "../components/Content";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
@@ -56,7 +57,8 @@ export const EntityPageTemplate = ({
       .slice(0, 3);
   };
 
-  topThreeTags();
+  const threeTagsHelment = () =>
+    topThreeTags().reduce((acc, cur) => `${acc} ${cur}`, "");
 
   const renderTags = () => {
     const tagArr = topThreeTags();
@@ -80,6 +82,13 @@ export const EntityPageTemplate = ({
   };
   return (
     <>
+      <Helmet titleTemplate=''>
+        <title>{`Concepts Are Bricks ${title} ${threeTagsHelment()}`}</title>
+        <meta
+          name='description'
+          content={`Concepts Are Bricks ${title} ${threeTagsHelment()}`}
+        />
+      </Helmet>
       <Hero type='entity' title={title} infoIcon={true} />
       <Main>
         <Section type='primary'>
