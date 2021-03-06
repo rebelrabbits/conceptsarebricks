@@ -20,9 +20,10 @@ Jeff Deist originally came under controversy back in July 2017 when he gave an i
 
 This article has been condemned for pushing libertarians into alt-right nationalism and Rebel Rabbits agrees.
 
-
-
 Additionally, in early 2021, text transcripts were leaked involving Jeffrey Tucker, who worked from 1997 to 2011 as editorial vice president and editor for the institute's website, [Mises.org](https://en.wikipedia.org/wiki/Mises.org "Mises.org"). In these transcripts, Tucker claims:
 
 * The Mises Institute is an "onboarding institution for the alt-right"
 * "These people \[meaning Deist and others] have dabbled in very bad shit for a long time, but mostly in private"
+* "I know exactly why Deist is prez... and it is not about libertarianism"
+
+Further research by Rebel Rabbits discovered that Jeff Deist is a twitter follower of @VDare, a race realist non profit that promotes the work of white supremacists, anti-Semites and others on the radical right. While this is not damning in and  of itself - many individuals and groups follow opponents - RebelRabbits feels it is noteworthy.
