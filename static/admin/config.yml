@@ -1,7 +1,6 @@
 backend:
   name: github
   repo: rebelrabbits/conceptsarebricks
-  open_authoring: true
   branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
