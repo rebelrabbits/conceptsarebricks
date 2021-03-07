@@ -41,8 +41,8 @@ const Navbar = () => {
                 <Link to='/blog'>Blog</Link>
               </li>
               <li>
-                <Link to='/contribute'>
-                  <Button variant='primary'>Contribute</Button>
+                <Link to='/contact'>
+                  <Button variant='primary'>Contact</Button>
                 </Link>
               </li>
             </ul>

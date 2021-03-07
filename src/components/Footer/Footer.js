@@ -92,9 +92,6 @@ const FooterComponent = class extends React.Component {
                       <li>
                         <Link to='/contact'>Contact</Link>
                       </li>
-                      <li>
-                        <Link to='/contribute'>Contribute</Link>
-                      </li>
                     </ul>
                   </nav>
                 </div>

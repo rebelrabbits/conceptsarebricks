@@ -102,7 +102,7 @@ export const Text = styled.div`
 const pageBannerCSS = css`
   background-attachment: fixed;
   background-color: #494949;
-  background-image: url("/img/mountains.jpg");
+  /* background-image: url("/img/mountains.jpg"); */
   background-position: bottom center;
   background-size: cover;
   height: auto;
