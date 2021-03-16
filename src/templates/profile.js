@@ -23,6 +23,7 @@ import {
   Overview,
   ByLine,
 } from "../templateStyles/entity";
+import Seo from "../components/SEO";
 // import Features from "../components/Features";
 // import Testimonials from "../components/Testimonials";
 // import Pricing from "../components/Pricing";
@@ -82,13 +83,17 @@ export const EntityPageTemplate = ({
   };
   return (
     <>
-      <Helmet titleTemplate=''>
+      {/* <Helmet titleTemplate=''>
         <title>{`Concepts Are Bricks ${title} ${threeTagsHelment()}`}</title>
         <meta
           name='description'
           content={`Concepts Are Bricks ${title} ${threeTagsHelment()}`}
         />
-      </Helmet>
+      </Helmet> */}
+      <Seo
+        title={`Concepts Are Bricks - ${title} Profile`}
+        description={threeTagsHelment()}
+      />
       <Hero type='entity' title={title} infoIcon={true} />
       <Main>
         <Section type='primary'>

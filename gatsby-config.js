@@ -3,6 +3,10 @@ module.exports = {
     title: "Concepts are Bricks",
     description:
       "This platform is dedicated to navigating the influences of the libertarian space and guarding against bigotry and authoritarian entryism.",
+    author: "@RebelRabbits",
+    twitterUsername: "@rabbits_rebel",
+    image: "/img/SocialShareDefault.png",
+    siteUrl: "https://www.conceptsarebricks.com",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

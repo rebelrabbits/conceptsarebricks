@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { kebabCase } from "lodash";
-import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import { Main, Section, Container, Tag } from "../components/styles";
+import Seo from "../components/SEO";
 
 export const BlogPostTemplate = ({
   content,
@@ -17,16 +17,15 @@ export const BlogPostTemplate = ({
   author,
   tags,
   title,
-  helmet,
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
     <>
+      <Seo title={title} description={description} />
       <Hero type='blog' title={title} />
       <Main>
         <Section>
-          {helmet || ""}
           <Container type='blog'>
             <div className='columns'>
               <div className='column is-10 is-offset-1'>
@@ -87,15 +86,6 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate='%s | Blog'>
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name='description'
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         author={post.frontmatter.author}

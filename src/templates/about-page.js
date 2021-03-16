@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
+import Seo from "../components/SEO";
 import { Main, Section, Container } from "../components/styles";
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
@@ -11,14 +12,18 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <>
-      <Hero type="page" title={title} />
+      <Seo
+        title='Concepts Are Bricks - About Rebel Rabbits'
+        description='Rebel Rabbits is the creator, administrator, and software engineer for Concepts are Bricks.'
+      />
+      <Hero type='page' title={title} />
       <Main>
         <Section>
           <Container>
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <div className="section">
-                  <PageContent className="content" content={content} />
+            <div className='columns'>
+              <div className='column is-10 is-offset-1'>
+                <div className='section'>
+                  <PageContent className='content' content={content} />
                 </div>
               </div>
             </div>

@@ -8,6 +8,7 @@ import { Container, Section, Tag, Main } from "../components/styles";
 import Content, { HTMLContent } from "../components/Content";
 
 import Hero from "../components/Hero";
+import Seo from "../components/SEO";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import {
   Author,
@@ -32,12 +33,18 @@ export const EventPageTemplate = ({
   subheading,
 }) => {
   const PostContent = contentComponent || Content;
+  const tagsAsString = tags
+    ? tags.reduce((acc, cur) => `${acc}, ${cur}`, "")
+    : "";
+  const metaDescription = subheading
+    ? `${subheading - tagsAsString}`
+    : tagsAsString;
   return (
     <>
-      <Helmet titleTemplate=''>
-        <title>{title}</title>
-        <meta name='description' content={title} />
-      </Helmet>
+      <Seo
+        title={`Concepts Are Bricks - Incident - ${title}`}
+        description={metaDescription}
+      />
       <Hero type='page' title={title} infoIcon={true} />
       <Main>
         <Section>
