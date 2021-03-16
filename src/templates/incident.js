@@ -34,7 +34,7 @@ export const EventPageTemplate = ({
 }) => {
   const PostContent = contentComponent || Content;
   const tagsAsString = tags
-    ? tags.reduce((acc, cur) => `${acc}, ${cur}`, "")
+    ? tags.reduce((acc, cur, ind) => `${acc}${ind > 0 ? ", " : ""} ${cur}`, "")
     : "";
   const metaDescription = subheading
     ? `${subheading - tagsAsString}`
