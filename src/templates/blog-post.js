@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import { Main, Section, Container, Tag } from "../components/styles";
+import { Main, Section, Container, Tag } from "../styledComponents/styles";
 import Seo from "../components/SEO";
 
 export const BlogPostTemplate = ({

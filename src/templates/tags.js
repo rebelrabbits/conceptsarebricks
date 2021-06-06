@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import SelectFilter from "../components/Filters/Select";
 import Filters from "../components/Filters";
-import { Section, Container, Main, Tag } from "../components/styles";
+import { Section, Container, Main, Tag } from "../styledComponents/styles";
 
 const TagRoute = (props) => {
   const [filters, setFilters] = useState([]);

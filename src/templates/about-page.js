@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
 import Seo from "../components/SEO";
-import { Main, Section, Container } from "../components/styles";
+import { Main, Section, Container } from "../styledComponents/styles";
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;

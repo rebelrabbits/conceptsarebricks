@@ -5,8 +5,8 @@ import { Link } from "gatsby";
 // import Button from "../Button";
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 import { Wrapper, Article, Body, Header } from "./styles";
-import { Tag } from "../styles";
-import { ViewAll } from "../styles";
+import { Tag } from "../../styledComponents/styles";
+import { ViewAll } from "../../styledComponents/styles";
 import Button from "../Button";
 
 const CardRoll = ({ data, truncated = false }) => {

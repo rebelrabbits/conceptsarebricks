@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/Layout";
 import Hero from "../../components/Hero";
-import { Main, Section, Container, Tag } from "../../components/styles";
+import { Main, Section, Container, Tag } from "../../styledComponents/styles";
 import SelectFilter from "../../components/Filters/Select";
 import Filters from "../../components/Filters";
 

@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import CardRoll from "../components/CardRoll";
-import { Section, Container, Main, Tag } from "../components/styles";
+import { Section, Container, Main, Tag } from "../styledComponents/styles";
 
 class AuthorRoute extends React.Component {
   render() {

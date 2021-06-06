@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/Layout";
 import Hero from "../../components/Hero";
-import { Main, Section, Container, Tag } from "../../components/styles";
+import { Main, Section, Container, Tag } from "../../styledComponents/styles";
 
 const AuthorsPage = ({
   data: {
@@ -17,17 +17,17 @@ const AuthorsPage = ({
   <>
     <Helmet title={`Authors | ${title}`} />
     <Layout>
-      <Hero type="page" title="Authors" />
+      <Hero type='page' title='Authors' />
       <Main>
         <Section>
           <Container>
-            <div className="columns">
+            <div className='columns'>
               <div
-                className="column is-10 is-offset-1"
+                className='column is-10 is-offset-1'
                 style={{ marginBottom: "6rem" }}
               >
-                <h1 className="title is-size-2 is-bold-light">Authors</h1>
-                <ul className="taglist">
+                <h1 className='title is-size-2 is-bold-light'>Authors</h1>
+                <ul className='taglist'>
                   {group.map((author) => (
                     <li key={author.fieldValue}>
                       <Tag>

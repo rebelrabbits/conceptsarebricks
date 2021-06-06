@@ -4,7 +4,7 @@ import "react-widgets/dist/css/react-widgets.css";
 import Layout from "../../components/Layout";
 import BlogRoll from "../../components/BlogRoll/index.jsx";
 import Hero from "../../components/Hero";
-import { Container, Section } from "../../components/styles";
+import { Container, Section } from "../../styledComponents/styles";
 
 export default class BlogIndexPage extends React.Component {
   render() {

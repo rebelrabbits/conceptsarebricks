@@ -12,7 +12,7 @@ import {
   Section,
   SectionHeading,
   ButtonGroup,
-} from "../components/styles";
+} from "../styledComponents/styles";
 import Button from "../components/Button";
 
 export const IndexPageTemplate = () => (

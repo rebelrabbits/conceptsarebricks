@@ -12,7 +12,7 @@ import {
   Section,
   SectionHeading,
   Tag,
-} from "../components/styles";
+} from "../styledComponents/styles";
 import CardRoll from "../components/CardRoll";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import {

@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
-import { Section, Container } from "../components/styles";
+import { Section, Container } from "../styledComponents/styles";
 
 const NotFoundPage = () => (
   <Layout>
-    <Hero type="page" title="Not Found" />
+    <Hero type='page' title='Not Found' />
     <Section>
       <Container>
         <h1>NOT FOUND</h1>

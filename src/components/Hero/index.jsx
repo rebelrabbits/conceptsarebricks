@@ -122,10 +122,6 @@ const Hero = ({ type, title, infoIcon = false }) => {
                           isActive={index === activeBorderIndex}
                         />
                         <Svg />
-                        {/*<Svg />
-                       <Svg />
-                    <Svg /> 
-                    */}
                       </div>
                     </div>
                   );

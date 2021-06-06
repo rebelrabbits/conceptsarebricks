@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
 import { get } from "lodash";
-import { ViewAll } from "../styles";
+import { ViewAll } from "../../styledComponents/styles";
 import Button from "../Button";
 import CardRoll from "../CardRoll";
 import DateFilter from "../Filters/Date";

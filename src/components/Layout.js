@@ -2,8 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "./Footer/Footer";
 import Navbar from "./Navbar/Navbar";
-import "./global.scss";
-import useSiteMetadata from "./SiteMetadata";
+import "../assets/styles/global.scss";
+import useSiteMetadata from "../hooks/useSiteMetadata";
 import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {

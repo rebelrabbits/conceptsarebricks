@@ -4,7 +4,7 @@ import { graphql, Link } from "gatsby";
 import { kebabCase } from "lodash";
 import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
-import { Container, Section, Tag, Main } from "../components/styles";
+import { Container, Section, Tag, Main } from "../styledComponents/styles";
 import Content, { HTMLContent } from "../components/Content";
 
 import Hero from "../components/Hero";

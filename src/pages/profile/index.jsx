@@ -5,7 +5,7 @@ import ProfileRoll from "../../components/ProfileRoll";
 import Hero from "../../components/Hero";
 // import ModalComponent from "../../components/Modal";
 import PleaseReadModal from "../../components/Modal/PleaseRead";
-import { Container, Section } from "../../components/styles";
+import { Container, Section } from "../../styledComponents/styles";
 
 const ProfileIndexPage = () => {
   return (

@@ -1,12 +1,12 @@
 import React from "react";
-import { Wrapper, FilterWrapper } from "./styles";
+import { FilterSectionWrapper, FilterWrapper } from "./styles";
 
 const Filters = ({ children }) => {
   return (
-    <Wrapper>
+    <FilterSectionWrapper>
       <h3>Filters</h3>
       <FilterWrapper>{children}</FilterWrapper>
-    </Wrapper>
+    </FilterSectionWrapper>
   );
 };
 

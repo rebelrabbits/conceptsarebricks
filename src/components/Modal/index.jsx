@@ -25,6 +25,8 @@ const ModalComponent = ({
   const [modalRoot] = useState(getModalRoot);
   const backgroundRef = useRef();
 
+  console.log("prevIsOpen", prevIsOpen);
+
   useEffect(() => {
     document.body.style.overflow = "hidden";
     window.addEventListener("keydown", onEscKeyDown, false);
@@ -46,6 +48,7 @@ const ModalComponent = ({
     };
   }, [originalElement]);
 
+  // ! This no longer seems needed. Reminder to test without.
   useEffect(() => {
     if (isOpen && !prevIsOpen) {
       setFadeType("out");

@@ -12,7 +12,7 @@
 //   TwoCol,
 //   ArticleImg,
 //   SectionHeading,
-// } from "../components/styles";
+// } from "../styledComponents/styles";
 // import Button from "../components/Button";
 // import LoginWithGitHub from "../assets/img/contribute/LoginWithGithub.png";
 // import ForkTheRepo from "../assets/img/contribute/ForkRepoStep.png";

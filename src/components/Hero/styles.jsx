@@ -1,5 +1,5 @@
 import styled, { css, keyframes } from "styled-components";
-import { Container } from "../styles";
+import { Container } from "../../styledComponents/styles";
 
 export const Overlay = styled.div`
   left: 0;

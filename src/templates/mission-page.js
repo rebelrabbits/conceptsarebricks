@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
-import { Main, Section, Container } from "../components/styles";
+import { Main, Section, Container } from "../styledComponents/styles";
 
 export const MissionPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;

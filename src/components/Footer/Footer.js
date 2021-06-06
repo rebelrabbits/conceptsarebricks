@@ -6,7 +6,7 @@ import Facebook from "../../assets/svg/social/facebook.svg";
 import Instagram from "../../assets/svg/social/instagram.svg";
 import Twitter from "../../assets/svg/social/twitter.svg";
 import Vimeo from "../../assets/svg/social/vimeo.svg";
-import { Container, TwoCol } from "../styles";
+import { Container, TwoCol } from "../../styledComponents/styles";
 import {
   Footer,
   Top,

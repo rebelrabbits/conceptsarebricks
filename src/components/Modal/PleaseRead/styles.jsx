@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { TwoCol } from "../../styles";
+import { TwoCol } from "../../../styledComponents/styles";
 import Modal from "../../Modal";
 
 export const StyledModal = styled(Modal)`
