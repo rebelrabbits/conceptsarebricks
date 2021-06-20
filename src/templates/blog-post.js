@@ -22,7 +22,7 @@ export const BlogPostTemplate = ({
 
   return (
     <>
-      <Seo title={title} description={description} />
+      <Seo title={title} description={description} author={author} />
       <Hero type='blog' title={title} />
       <Main>
         <Section>

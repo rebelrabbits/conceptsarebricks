@@ -1,10 +1,10 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import CardRoll from "../components/CardRoll";
 import { Section, Container, Main, Tag } from "../styledComponents/styles";
+import Seo from "../components/SEO";
 
 class AuthorRoute extends React.Component {
   render() {
@@ -17,7 +17,7 @@ class AuthorRoute extends React.Component {
 
     return (
       <>
-        <Helmet title={`${author} | ${title}`} />
+        <Seo title={`${author} | ${title}`} />
         <Layout>
           <Hero type='author' title={author} />
           <Main>

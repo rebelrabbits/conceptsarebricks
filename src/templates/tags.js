@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import SelectFilter from "../components/Filters/Select";
 import Filters from "../components/Filters";
 import { Section, Container, Main, Tag } from "../styledComponents/styles";
+import Seo from "../components/SEO";
 
 const TagRoute = (props) => {
   const [filters, setFilters] = useState([]);
@@ -42,7 +43,6 @@ const TagRoute = (props) => {
 
   useEffect(() => {
     let filteredLinks = [...props.data.allMarkdownRemark.edges];
-    console.log("filteredLinks", filteredLinks);
 
     if (filters && filters.length > 0) {
       filteredLinks = filteredLinks.filter(({ node }) =>
@@ -55,7 +55,7 @@ const TagRoute = (props) => {
 
   return (
     <>
-      <Helmet title={`${tag} | ${title}`} />
+      <Seo title={`${tag} | ${title}`} />
       <Layout>
         <Hero type='page' title='Tags' />
         <Main>
