@@ -26,10 +26,7 @@ const TagRoute = (props) => {
     posts.map(({ node }) => node.frontmatter.templateKey),
   );
 
-  console.log("uniqueKeys", uniqueKeys);
-
   const handleChange = (values) => {
-    console.log("handleChange values", values);
     setFilters(values);
   };
 
