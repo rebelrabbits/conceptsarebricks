@@ -27,10 +27,7 @@ const TagsPage = ({
     }, []),
   );
 
-  console.log("uniqueKeys", uniqueKeys);
-
   const handleChange = (name) => (values) => {
-    console.log("handleChange values", values);
     setFilters(values);
   };
 
