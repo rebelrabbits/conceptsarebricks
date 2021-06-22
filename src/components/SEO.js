@@ -22,6 +22,7 @@ const Seo = ({
   description = null,
   featuredImage = null,
   author = null,
+  isFullImage = true,
 }) => {
   const { site } = useStaticQuery(fetchMetaData);
   const {
@@ -31,9 +32,9 @@ const Seo = ({
     image,
     twitterUsername,
   } = site.siteMetadata;
-  const imageURL = `${siteUrl}${featuredImage || image}`;
+  const imageURL = `${siteUrl}${featuredImage ? featuredImage : image}`;
   const seoTitle = title ? `${title} | ${siteTitle}` : siteTitle;
-  const seoDescription = description || siteDesc;
+  const seoDescription = description ? description : siteDesc;
 
   return (
     <Helmet title={seoTitle} htmlAttributes={{ lang: "en" }}>
@@ -50,7 +51,10 @@ const Seo = ({
       <meta property='og:image:height' content='766' />
       <meta name='author' content={author || "Rebel Rabbits"}></meta>
       {/* Twitter Card */}
-      <meta name='twitter:card' content='summary_large_image' />
+      <meta
+        name='twitter:card'
+        content={isFullImage ? "summary_large_image" : "summary"}
+      />
       <meta name='twitter:creator' content={twitterUsername} />
       <meta name='twitter:title' content={seoTitle} />
       <meta name='twitter:description' content={seoDescription} />

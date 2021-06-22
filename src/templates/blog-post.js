@@ -22,7 +22,12 @@ export const BlogPostTemplate = ({
 
   return (
     <>
-      <Seo title={title} description={description} author={author} />
+      <Seo
+        title={title}
+        description={description}
+        author={author}
+        featuredImage={image?.childImageSharp?.fluid?.src}
+      />
       <Hero type='blog' title={title} />
       <Main>
         <Section>

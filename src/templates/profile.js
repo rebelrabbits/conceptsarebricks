@@ -97,6 +97,8 @@ export const EntityPageTemplate = ({
       <Seo
         title={`Concepts Are Bricks - ${title} Profile`}
         description={metaDescription}
+        featuredImage={image?.childImageSharp?.fluid?.src}
+        isFullImage={false}
       />
       <Hero type='entity' title={title} infoIcon={true} />
       <Main>
