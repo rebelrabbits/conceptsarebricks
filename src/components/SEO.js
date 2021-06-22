@@ -42,7 +42,6 @@ const Seo = ({
   return (
     <Helmet title={seoTitle} htmlAttributes={{ lang: "en" }}>
       <meta name='description' content={seoDescription} />
-      <meta name='image' content={imageURL} />
       {/* OG */}
       <meta property='og:title' content={seoTitle} />
       <meta property='og:description' content={seoDescription} />
