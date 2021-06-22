@@ -62,8 +62,8 @@ export const EntityPageTemplate = ({
     topThreeTags().reduce((acc, cur) => `${acc} ${cur}`, "");
 
   const metaDescription = subheading
-    ? `${subheading - threeTagsHelment}`
-    : threeTagsHelment;
+    ? `${subheading - threeTagsHelment()}`
+    : threeTagsHelment();
 
   const renderTags = () => {
     const tagArr = topThreeTags();
@@ -95,7 +95,7 @@ export const EntityPageTemplate = ({
         />
       </Helmet> */}
       <Seo
-        title={`Concepts Are Bricks - ${title} Profile`}
+        title={`${title} Profile`}
         description={metaDescription}
         featuredImage={image?.childImageSharp?.fluid?.src}
         isFullImage={false}
