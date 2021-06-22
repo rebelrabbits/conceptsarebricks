@@ -23,7 +23,7 @@ const Seo = ({
   featuredImage = null,
   author = null,
   isFullImage = true,
-  path = "/",
+  path = null,
 }) => {
   const { site } = useStaticQuery(fetchMetaData);
   const {
@@ -36,6 +36,9 @@ const Seo = ({
   const imageURL = `${siteUrl}${featuredImage ? featuredImage : image}`;
   const seoTitle = title ? `${title} | ${siteTitle}` : siteTitle;
   const seoDescription = description ? description : siteDesc;
+  const url = path
+    ? `https://www.conceptsarebricks.com${path}`
+    : "https://www.conceptsarebricks.com";
 
   return (
     <Helmet title={seoTitle} htmlAttributes={{ lang: "en" }}>
@@ -44,10 +47,7 @@ const Seo = ({
       <meta property='og:title' content={seoTitle} />
       <meta property='og:description' content={seoDescription} />
       <meta property='og:type' content='article' />
-      <meta
-        property='og:url'
-        content={`https://www.conceptsarebricks.com${path}`}
-      />
+      <meta property='og:url' content={url} />
       <meta name='image' property='og:image' content={imageURL} />
       <meta property='og:image:secure_url' content={imageURL} />
       <meta property='og:image:width' content='1144' />
@@ -62,10 +62,7 @@ const Seo = ({
       <meta name='twitter:title' content={seoTitle} />
       <meta name='twitter:description' content={seoDescription} />
       <meta name='twitter:image' content={imageURL} />
-      <link
-        rel='canonical'
-        href={`https://www.conceptsarebricks.com${path}`}
-      ></link>
+      <link rel='canonical' href={url}></link>
     </Helmet>
   );
 };
