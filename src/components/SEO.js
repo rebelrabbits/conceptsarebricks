@@ -35,6 +35,9 @@ const Seo = ({
   const imageURL = `${siteUrl}${featuredImage ? featuredImage : image}`;
   const seoTitle = title ? `${title} | ${siteTitle}` : siteTitle;
   const seoDescription = description ? description : siteDesc;
+  console.log("imageURL", imageURL);
+  console.log("seoTitle", seoTitle);
+  console.log("seoDescription", seoDescription);
 
   return (
     <Helmet title={seoTitle} htmlAttributes={{ lang: "en" }}>

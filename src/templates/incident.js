@@ -42,9 +42,9 @@ export const EventPageTemplate = ({
   return (
     <>
       <Seo
-        title={`Concepts Are Bricks - Incident - ${title}`}
+        title={title}
         description={metaDescription}
-        featuredImage={image}
+        featuredImage={image?.childImageSharp?.fluid?.src}
       />
       <Hero type='page' title={title} infoIcon={true} />
       <Main>
