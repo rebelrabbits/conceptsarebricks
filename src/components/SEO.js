@@ -62,6 +62,10 @@ const Seo = ({
       <meta name='twitter:title' content={seoTitle} />
       <meta name='twitter:description' content={seoDescription} />
       <meta name='twitter:image' content={imageURL} />
+      <link
+        rel='canonical'
+        href={`https://www.conceptsarebricks.com${path}`}
+      ></link>
     </Helmet>
   );
 };
