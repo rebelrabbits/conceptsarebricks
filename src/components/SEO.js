@@ -23,6 +23,7 @@ const Seo = ({
   featuredImage = null,
   author = null,
   isFullImage = true,
+  path = "/",
 }) => {
   const { site } = useStaticQuery(fetchMetaData);
   const {
@@ -35,9 +36,6 @@ const Seo = ({
   const imageURL = `${siteUrl}${featuredImage ? featuredImage : image}`;
   const seoTitle = title ? `${title} | ${siteTitle}` : siteTitle;
   const seoDescription = description ? description : siteDesc;
-  console.log("imageURL", imageURL);
-  console.log("seoTitle", seoTitle);
-  console.log("seoDescription", seoDescription);
 
   return (
     <Helmet title={seoTitle} htmlAttributes={{ lang: "en" }}>
@@ -46,7 +44,10 @@ const Seo = ({
       <meta property='og:title' content={seoTitle} />
       <meta property='og:description' content={seoDescription} />
       <meta property='og:type' content='article' />
-      <meta property='og:url' content='https://conceptsarebricks.com/' />
+      <meta
+        property='og:url'
+        content={`https://conceptsarebricks.com${path}`}
+      />
       <meta name='image' property='og:image' content={imageURL} />
       <meta property='og:image:secure_url' content={imageURL} />
       <meta property='og:image:width' content='1144' />

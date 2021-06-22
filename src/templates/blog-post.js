@@ -17,6 +17,7 @@ export const BlogPostTemplate = ({
   author,
   tags,
   title,
+  path,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -27,6 +28,7 @@ export const BlogPostTemplate = ({
         description={description}
         author={author}
         featuredImage={image?.childImageSharp?.fluid?.src}
+        path={path}
       />
       <Hero type='blog' title={title} />
       <Main>
@@ -82,7 +84,7 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 };
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, path }) => {
   const { markdownRemark: post } = data;
 
   return (
@@ -95,6 +97,7 @@ const BlogPost = ({ data }) => {
         title={post.frontmatter.title}
         author={post.frontmatter.author}
         image={post.frontmatter.featuredimage}
+        path={path}
       />
     </Layout>
   );

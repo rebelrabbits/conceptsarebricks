@@ -3,8 +3,8 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import CardRoll from "../components/CardRoll";
-import { Section, Container, Main, Tag } from "../styledComponents/styles";
 import Seo from "../components/SEO";
+import { Section, Container, Main } from "../styledComponents/styles";
 
 class AuthorRoute extends React.Component {
   render() {

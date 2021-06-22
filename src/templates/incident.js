@@ -30,6 +30,7 @@ export const EventPageTemplate = ({
   contentComponent,
   tags,
   subheading,
+  path,
 }) => {
   const PostContent = contentComponent || Content;
   const tagsAsString = tags
@@ -44,6 +45,7 @@ export const EventPageTemplate = ({
         title={title}
         description={metaDescription}
         featuredImage={image?.childImageSharp?.fluid?.src}
+        path={path}
       />
       <Hero type='page' title={title} infoIcon={true} />
       <Main>
@@ -129,7 +131,7 @@ EventPageTemplate.propTypes = {
   title: PropTypes.string,
 };
 
-const EventPage = ({ data }) => {
+const EventPage = ({ data, path }) => {
   const { frontmatter, html } = data.eventData;
   const { profile } = data;
 
@@ -142,6 +144,7 @@ const EventPage = ({ data }) => {
         tags={frontmatter.tags}
         content={html}
         contentComponent={HTMLContent}
+        path={path}
       />
     </Layout>
   );

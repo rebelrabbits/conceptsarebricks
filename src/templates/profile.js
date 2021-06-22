@@ -37,6 +37,7 @@ export const EntityPageTemplate = ({
   subheading,
   audience,
   data,
+  path,
 }) => {
   const PostContent = contentComponent || Content;
   const topThreeTags = () => {
@@ -58,12 +59,14 @@ export const EntityPageTemplate = ({
       .slice(0, 3);
   };
 
-  const threeTagsHelment = () =>
-    topThreeTags().reduce((acc, cur) => `${acc} ${cur}`, "");
+  const threeTagsHelment = topThreeTags().reduce(
+    (acc, cur) => `${acc} ${cur}`,
+    "",
+  );
 
   const metaDescription = subheading
-    ? `${subheading - threeTagsHelment()}`
-    : threeTagsHelment();
+    ? `${subheading} - ${threeTagsHelment}`
+    : threeTagsHelment;
 
   const renderTags = () => {
     const tagArr = topThreeTags();
@@ -99,6 +102,7 @@ export const EntityPageTemplate = ({
         description={metaDescription}
         featuredImage={image?.childImageSharp?.fluid?.src}
         isFullImage={false}
+        path={path}
       />
       <Hero type='entity' title={title} infoIcon={true} />
       <Main>
@@ -181,7 +185,7 @@ EntityPageTemplate.propTypes = {
   title: PropTypes.string,
 };
 
-const EntityPage = ({ data }) => {
+const EntityPage = ({ data, path }) => {
   const { profile, events } = data;
   const [entity] = profile.edges;
   const { frontmatter, html } = entity.node;
@@ -197,6 +201,7 @@ const EntityPage = ({ data }) => {
         subheading={frontmatter.subheading}
         audience={frontmatter.audience}
         data={incidents}
+        path={path}
       />
     </Layout>
   );
