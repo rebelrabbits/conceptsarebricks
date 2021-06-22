@@ -46,7 +46,7 @@ const Seo = ({
       <meta property='og:type' content='article' />
       <meta
         property='og:url'
-        content={`https://conceptsarebricks.com${path}`}
+        content={`https://www.conceptsarebricks.com${path}`}
       />
       <meta name='image' property='og:image' content={imageURL} />
       <meta property='og:image:secure_url' content={imageURL} />
