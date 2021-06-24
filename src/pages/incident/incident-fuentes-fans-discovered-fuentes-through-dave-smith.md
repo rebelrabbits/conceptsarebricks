@@ -18,4 +18,6 @@ What is further interesting to Rebel Rabbits is within ~2 minutes of praising Da
 * “People will ask me, ‘you think Jews can’t be impartial’? And I would point say ‘Here’s a guy who happens to be Jewish, but **clearly has this assimilated identity**… He doesn’t see me as genocidal. He sees me as a reasonable person...  he doesn’t resent me for being white or my ancestors for anti-semitism’”
 * Repeat later: “People will ask me, ‘you think Jews can’t be impartial’? And I would say, ‘No, but often they’re not. And that has consequences. And that’s largely the case today with most people’”
 
-To Rebel Rabbits, this implies that Fuentes views Jews as largely problematic, for reasons undiscussed here, but views Dave as a good one because he has an "assimilated identity" which means he doesn't behave like a normal Jewish person.
+To Rebel Rabbits, this implies that Fuentes views Jews as largely problematic, for reasons undiscussed here, but views Dave as a good one because he has an "assimilated identity" which means he doesn't behave like a normal Jewish person.\
+\
+This incident has been included under Dave Smith's profile because Smith has repeatedly and continually platformed and praised Fuentes. For more details regarding the dangerous ideas Fuentes espouses, please visit related incident: [Dave: Nick Fuentes is a really nice guy](https://www.conceptsarebricks.com/incident/incident-dave-nick-fuentes-is-a-really-nice-guy/)
