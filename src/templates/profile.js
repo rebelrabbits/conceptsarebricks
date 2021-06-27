@@ -24,6 +24,7 @@ import {
   ByLine,
 } from "../templateStyles/entity";
 import Seo from "../components/SEO";
+import removeTrailingSlash from "../utils/removeTrailingSlash";
 // import Features from "../components/Features";
 // import Testimonials from "../components/Testimonials";
 // import Pricing from "../components/Pricing";
@@ -102,7 +103,7 @@ export const EntityPageTemplate = ({
         description={metaDescription}
         featuredImage={image?.childImageSharp?.fluid?.src}
         isFullImage={false}
-        path={path}
+        path={removeTrailingSlash(path)}
       />
       <Hero type='entity' title={title} infoIcon={true} />
       <Main>

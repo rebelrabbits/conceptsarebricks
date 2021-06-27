@@ -5,6 +5,7 @@ import Layout from "../../components/Layout";
 import Hero from "../../components/Hero";
 import { Main, Section, Container, Tag } from "../../styledComponents/styles";
 import Seo from "../../components/SEO";
+import removeTrailingSlash from "../../utils/removeTrailingSlash";
 
 const AuthorsPage = ({
   data: {
@@ -16,7 +17,7 @@ const AuthorsPage = ({
   path,
 }) => (
   <>
-    <Seo title={`Authors | ${title}`} path={path} />
+    <Seo title={`Authors | ${title}`} path={removeTrailingSlash(path)} />
     <Layout>
       <Hero type='page' title='Authors' />
       <Main>

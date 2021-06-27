@@ -21,6 +21,7 @@ import {
   Tags,
   Title,
 } from "../templateStyles/event";
+import removeTrailingSlash from "../utils/removeTrailingSlash";
 
 export const EventPageTemplate = ({
   image,
@@ -45,7 +46,7 @@ export const EventPageTemplate = ({
         title={title}
         description={metaDescription}
         featuredImage={image?.childImageSharp?.fluid?.src}
-        path={path}
+        path={removeTrailingSlash(path)}
       />
       <Hero type='page' title={title} infoIcon={true} />
       <Main>

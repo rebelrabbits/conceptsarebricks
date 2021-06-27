@@ -8,6 +8,7 @@ import Hero from "../components/Hero";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import { Main, Section, Container, Tag } from "../styledComponents/styles";
 import Seo from "../components/SEO";
+import removeTrailingSlash from "../utils/removeTrailingSlash";
 
 export const BlogPostTemplate = ({
   content,
@@ -28,7 +29,7 @@ export const BlogPostTemplate = ({
         description={description}
         author={author}
         featuredImage={image?.childImageSharp?.fluid?.src}
-        path={path}
+        path={removeTrailingSlash(path)}
       />
       <Hero type='blog' title={title} />
       <Main>

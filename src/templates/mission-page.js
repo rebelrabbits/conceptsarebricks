@@ -6,6 +6,7 @@ import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
 import { Main, Section, Container } from "../styledComponents/styles";
 import Seo from "../components/SEO";
+import removeTrailingSlash from "../utils/removeTrailingSlash";
 
 export const MissionPageTemplate = ({
   title,
@@ -17,7 +18,7 @@ export const MissionPageTemplate = ({
 
   return (
     <>
-      <Seo title={`${title}`} path={path} />
+      <Seo title={`${title}`} path={removeTrailingSlash(path)} />
       <Hero type='page' title={title} />
       <Main>
         <Section>

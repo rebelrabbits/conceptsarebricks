@@ -13,6 +13,7 @@ module.exports = {
     "gatsby-plugin-sass",
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-twitter`,
+    `gatsby-plugin-remove-trailing-slashes`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
