@@ -14,7 +14,7 @@ export default class EventIndexPage extends React.Component {
   render() {
     return (
       <>
-        <Seo title='Latest Incidents | Concepts are Bricks' path='/incident' />
+        <Seo title='Latest Incidents' path='/incident' />
         <Layout>
           <Hero type='page' title=' Search Events...' infoIcon={true} />
           <main>

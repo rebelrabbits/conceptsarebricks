@@ -11,7 +11,7 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <>
-        <Seo title='Latest Posts | Concepts are bricks' path='/blog' />
+        <Seo title='Latest Posts' path='/blog' />
         <Layout>
           <Hero type='page' title='Latest Posts' />
           <main>

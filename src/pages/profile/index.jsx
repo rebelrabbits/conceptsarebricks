@@ -11,7 +11,7 @@ import Seo from "../../components/SEO";
 const ProfileIndexPage = () => {
   return (
     <>
-      <Seo title='All Profiles | Concepts are Bricks' path='/profiles' />
+      <Seo title='All Profiles' path='/profile' />
       <Layout>
         <Hero type='page' title=' Search Profiles...' infoIcon={true} />
         <main>

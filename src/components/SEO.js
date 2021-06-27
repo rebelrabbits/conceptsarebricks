@@ -39,6 +39,7 @@ const Seo = ({
   const url = path
     ? `https://www.conceptsarebricks.com${path}`
     : "https://www.conceptsarebricks.com";
+  console.log("URL passed: ", url);
 
   return (
     <Helmet title={seoTitle} htmlAttributes={{ lang: "en" }}>

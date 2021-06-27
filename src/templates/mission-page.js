@@ -17,7 +17,7 @@ export const MissionPageTemplate = ({
 
   return (
     <>
-      <Seo title={`${title} | Concepts are Bricks`} path={path} />
+      <Seo title={`${title}`} path={path} />
       <Hero type='page' title={title} />
       <Main>
         <Section>
