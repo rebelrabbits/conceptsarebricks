@@ -1,10 +1,10 @@
 import React from "react";
 import { kebabCase } from "lodash";
-import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/Layout";
 import Hero from "../../components/Hero";
 import { Main, Section, Container, Tag } from "../../styledComponents/styles";
+import Seo from "../../components/SEO";
 
 const AuthorsPage = ({
   data: {
@@ -13,9 +13,10 @@ const AuthorsPage = ({
       siteMetadata: { title },
     },
   },
+  path,
 }) => (
   <>
-    <Helmet title={`Authors | ${title}`} />
+    <Seo title={`Authors | ${title}`} path={path} />
     <Layout>
       <Hero type='page' title='Authors' />
       <Main>

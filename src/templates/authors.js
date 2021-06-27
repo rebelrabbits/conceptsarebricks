@@ -17,7 +17,7 @@ class AuthorRoute extends React.Component {
 
     return (
       <>
-        <Seo title={`${author} | ${title}`} />
+        <Seo title={`${author} | ${title}`} path={`/authors/${author}`} />
         <Layout>
           <Hero type='author' title={author} />
           <Main>

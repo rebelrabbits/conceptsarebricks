@@ -15,6 +15,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <Seo
         title='Concepts Are Bricks - About Rebel Rabbits'
         description='Rebel Rabbits is the creator, administrator, and software engineer for Concepts are Bricks.'
+        path='/about'
       />
       <Hero type='page' title={title} />
       <Main>

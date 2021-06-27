@@ -5,12 +5,19 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
 import { Main, Section, Container } from "../styledComponents/styles";
+import Seo from "../components/SEO";
 
-export const MissionPageTemplate = ({ title, content, contentComponent }) => {
+export const MissionPageTemplate = ({
+  title,
+  content,
+  contentComponent,
+  path,
+}) => {
   const PageContent = contentComponent || Content;
 
   return (
     <>
+      <Seo title={`${title} | Concepts are Bricks`} path={path} />
       <Hero type='page' title={title} />
       <Main>
         <Section>
@@ -35,7 +42,7 @@ MissionPageTemplate.propTypes = {
   contentComponent: PropTypes.func,
 };
 
-const MissionPage = ({ data }) => {
+const MissionPage = ({ data, path }) => {
   const { markdownRemark: post } = data;
 
   return (
@@ -44,6 +51,7 @@ const MissionPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        path={path}
       />
     </Layout>
   );

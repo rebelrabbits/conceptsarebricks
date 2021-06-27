@@ -1,13 +1,13 @@
 /* eslint-disable react/prop-types */
 import React, { useState, useEffect } from "react";
 import { kebabCase, uniq, get } from "lodash";
-import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/Layout";
 import Hero from "../../components/Hero";
 import { Main, Section, Container, Tag } from "../../styledComponents/styles";
 import SelectFilter from "../../components/Filters/Select";
 import Filters from "../../components/Filters";
+import Seo from "../../components/SEO";
 
 const TagsPage = ({
   data: {
@@ -51,7 +51,7 @@ const TagsPage = ({
 
   return (
     <>
-      <Helmet title={`Tags | ${title}`} />
+      <Seo title={`Tags | ${title}`} />
       <Layout>
         <Hero type='page' title='Tags' />
         <Main>

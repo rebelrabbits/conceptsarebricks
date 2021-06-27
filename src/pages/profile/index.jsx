@@ -6,10 +6,12 @@ import Hero from "../../components/Hero";
 // import ModalComponent from "../../components/Modal";
 import PleaseReadModal from "../../components/Modal/PleaseRead";
 import { Container, Section } from "../../styledComponents/styles";
+import Seo from "../../components/SEO";
 
 const ProfileIndexPage = () => {
   return (
     <>
+      <Seo title='All Profiles | Concepts are Bricks' path='/profiles' />
       <Layout>
         <Hero type='page' title=' Search Profiles...' infoIcon={true} />
         <main>

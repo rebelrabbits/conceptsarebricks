@@ -8,21 +8,25 @@ import {
   Section,
   SectionHeading,
 } from "../../styledComponents/styles";
+import Seo from "../../components/SEO";
 
 export default class EventIndexPage extends React.Component {
   render() {
     return (
-      <Layout>
-        <Hero type='page' title=' Search Events...' infoIcon={true} />
-        <main>
-          <Section fade={true}>
-            <Container>
-              <SectionHeading>Latest Events</SectionHeading>
-              <IncidentRollFetcher hasFilters={true} />
-            </Container>
-          </Section>
-        </main>
-      </Layout>
+      <>
+        <Seo title='Latest Incidents | Concepts are Bricks' path='/incident' />
+        <Layout>
+          <Hero type='page' title=' Search Events...' infoIcon={true} />
+          <main>
+            <Section fade={true}>
+              <Container>
+                <SectionHeading>Latest Events</SectionHeading>
+                <IncidentRollFetcher hasFilters={true} />
+              </Container>
+            </Section>
+          </main>
+        </Layout>
+      </>
     );
   }
 }
