@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, withPrefix } from "gatsby";
 import { useLocation } from "@reach/router";
 
 const fetchMetaData = graphql`
@@ -36,11 +36,6 @@ const Seo = ({
     defaultImage,
     twitterUsername,
   } = site.siteMetadata;
-  // const imageURL = `${siteUrl}${featuredImage ? featuredImage : defaultImage}`;
-  // const seoTitle = title ? `${title} | ${defaultTitle}` : defaultTitle;
-  // const seoDescription = description ? description : defaultDescription;
-  // const url = `${siteUrl}${pathname}`;
-  // console.log("URL passed: ", url);
 
   const seo = {
     title: title || defaultTitle,
@@ -71,6 +66,31 @@ const Seo = ({
         <meta name='twitter:description' content={seo.description} />
       )}
       {seo.image && <meta name='twitter:image' content={seo.image} />}
+
+      <link
+        rel='apple-touch-icon'
+        sizes='180x180'
+        href={`${withPrefix("/")}img/apple-touch-icon.png`}
+      />
+      <link
+        rel='icon'
+        type='image/png'
+        href={`${withPrefix("/")}img/favicon-32x32.png`}
+        sizes='32x32'
+      />
+      <link
+        rel='icon'
+        type='image/png'
+        href={`${withPrefix("/")}img/favicon-16x16.png`}
+        sizes='16x16'
+      />
+
+      <link
+        rel='mask-icon'
+        href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
+        color='#ff4400'
+      />
+      <meta name='theme-color' content='#fff' />
       {/* <meta name='description' content={seoDescription} />
 
 <meta property='og:title' content={seoTitle} />
