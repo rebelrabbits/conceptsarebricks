@@ -38,6 +38,7 @@ const Seo = ({
   const seoDescription = description ? description : siteDesc;
   const url = `https://www.conceptsarebricks.com${path}`;
   console.log("URL passed: ", url);
+  console.log("siteUrl: ", siteUrl);
 
   return (
     <Helmet title={seoTitle} htmlAttributes={{ lang: "en" }}>
