@@ -23,7 +23,7 @@ const Seo = ({
   featuredImage = null,
   author = null,
   isFullImage = true,
-  path = null,
+  path = "",
 }) => {
   const { site } = useStaticQuery(fetchMetaData);
   const {
@@ -36,9 +36,7 @@ const Seo = ({
   const imageURL = `${siteUrl}${featuredImage ? featuredImage : image}`;
   const seoTitle = title ? `${title} | ${siteTitle}` : siteTitle;
   const seoDescription = description ? description : siteDesc;
-  const url = path
-    ? `https://www.conceptsarebricks.com${path}`
-    : "https://www.conceptsarebricks.com";
+  const url = `https://www.conceptsarebricks.com${path}`;
   console.log("URL passed: ", url);
 
   return (

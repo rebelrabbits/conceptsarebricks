@@ -8,6 +8,7 @@ import { Wrapper, Article, Body, Header } from "./styles";
 import { Tag } from "../../styledComponents/styles";
 import { ViewAll } from "../../styledComponents/styles";
 import Button from "../Button";
+import removeTrailingSlash from "../../utils/removeTrailingSlash";
 
 const CardRoll = ({ data, truncated = false }) => {
   const [isTruncated, setisTruncated] = useState(truncated);
@@ -26,7 +27,7 @@ const CardRoll = ({ data, truncated = false }) => {
               // className={post.frontmatter.featuredevent ? "is-featured" : ""}
             >
               {post.frontmatter.featuredimage ? (
-                <Link to={post.fields.slug}>
+                <Link to={removeTrailingSlash(post.fields.slug)}>
                   <PreviewCompatibleImage
                     imageInfo={{
                       image: post.frontmatter.featuredimage,
