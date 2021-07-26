@@ -9,6 +9,7 @@ featuredimage: /img/cancel-culture.jpg
 tags:
   - CancelCulture
 ---
+
 “Cancel culture”, or “cancelling”, are terms thrown around in social media spaces and are frequently seen in a negative light as runaway online bullying. While, there are certainly downsides and abuses related to cancel culture, it is helpful to fully understand 1) what is cancel culture, or “cancelling”? 2) What is the appeal? 3) What is the downside? 4) How should this platform approach cancelling?
 
 ## What is Cancel Culture?
@@ -17,13 +18,13 @@ Cancel culture is when members of a community with relatively little individual 
 
 ## What is the Appeal
 
-The appeal is that cancelling can provide control or even jestice for people who are normally denied it by power bad actors insulated within a system. For example, #MuteRKelly helped bring awareness to the accusations against R. Kelly and contributed to his being dropped by RCA Records before he was officially indicted in 2019. Cancelling can disrupt the narrative that victims must have done something to deserve their abuse and can provide victims a sense of community and support. The #MeToo movement was famous for both.
+The appeal is that cancelling can provide control or even justice for people who are normally denied it by powerful bad actors insulated within a system. For example, #MuteRKelly helped bring awareness to the accusations against R. Kelly and contributed to his being dropped by RCA Records before he was officially indicted in 2019. Cancelling can disrupt the narrative that victims must have done something to deserve their abuse and can provide victims a sense of community and support. The #MeToo movement was famous for both.
 
 ## What is the Downside
 
-Like most tools intended for defense, cancelling can be weaponized by people who, in bad faith, want to hide behind a victim status. There is a tendency in cancel culture to abstract a person’s actions into a generic label that can eliminate all nuance and make all “bad actors” seem equally bad and worthy of punishment. For example, “Person A told Person B XYZ” which is then relayed as “Person A said something racist”. While the original message may have something that qualifies as “racist” there is not distinguishing between a comment that is racist due to an unconscious, inherited, and unexamined cultural norm or due to a conscious, deliberate, and hateful reason. Additionally, there is a tendency in cancel culture to essentialize a label to a person's identity. For example, “Person A said something racist” turns into “Person A is a racist”. Those are two very different things and there is great danger in attempting to reduce an entire person’s identity to one quality.
+Like most tools intended for defense, cancelling can be weaponized by people who, in bad faith, want to hide behind a victim status. There is a tendency in cancel culture to abstract a person’s actions into a generic label that can eliminate all nuance and make all “bad actors” seem equally bad and worthy of punishment. For example, “Person A told Person B XYZ” which is then relayed as “Person A said something racist”. While the original message may have something that qualifies as “racist” there is no distinguishing between a comment that is racist due to an unconscious, inherited, and unexamined cultural norm or due to a conscious, deliberate, and hateful reason. Additionally, there is a tendency in cancel culture to essentialize a label to a person's identity. For example, “Person A said something racist” turns into “Person A is a racist”. Those are two very different things and there is great danger in attempting to reduce an entire person’s identity to one quality.
 
-Additional downsides include the anonymity allows participants to avoid confronting real-world consequences of their actions. For example, some targets of cancelling later committed suicide. Also, legitimately abusive behavior, such as doxxing, threatening, harassing, can feel justified by the righteous frenzy that surrounds the target. In conclusion, it’s very easy for cancelling to go too far and produce results more severe than originally justified or anticipated.
+Additional downsides include the anonymity which allows participants to avoid confronting real-world consequences of their actions. For example, some targets of cancelling later committed suicide. Also, legitimately abusive behavior, such as doxxing, threatening, harassing, can feel justified by the righteous frenzy that surrounds the target. In conclusion, it’s very easy for cancelling to go too far and produce results more severe than originally justified or anticipated.
 
 ## How this Platform Approaches “Cancelling”
 
